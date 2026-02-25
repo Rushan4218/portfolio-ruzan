@@ -1,246 +1,181 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Aria Voss — Graphic, Brand & UI/UX Designer crafting visual identities and digital experiences that resonate."
-    />
-    <meta
-      name="keywords"
-      content="graphic designer, brand designer, UI UX designer, product designer, visual identity, portfolio"
-    />
-    <meta name="author" content="Aria Voss" />
-    <meta property="og:title" content="Aria Voss — Designer Portfolio" />
-    <meta
-      property="og:description"
-      content="Crafting visual identities and digital experiences that leave a mark."
-    />
-    <meta property="og:type" content="website" />
-    <title>Aria Voss — Designer Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Custom cursor -->
-    <div class="cursor" id="cursor" aria-hidden="true"></div>
-    <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
 
-    <!-- Noise overlay -->
-    <div class="noise" aria-hidden="true"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Ruzan — Graphic, Brand & UI/UX Designer crafting visual identities and digital experiences that resonate." />
+  <meta name="keywords"
+    content="graphic designer, brand designer, UI UX designer, product designer, visual identity, designer" />
+  <meta name="author" content="Ruzan" />
+  <meta property="og:title" content="Ruzan — Product and Visual Designer" />
+  <meta property="og:description"
+    content="crafting user-centered digital experiences, bold visuals, and intuitive interfaces that drive engagement and growth." />
+  <meta property="og:type" content="website" />
+  <title>Ruzan — Product and Visual Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <!-- Header / Nav -->
-    <header class="header" role="banner">
-      <nav class="nav" role="navigation" aria-label="Primary navigation">
-        <a href="#hero" class="nav-logo" aria-label="Aria Voss home">AV</a>
-        <button
-          class="nav-toggle"
-          id="navToggle"
-          aria-label="Toggle menu"
-          aria-expanded="false"
-        >
-          <span></span><span></span>
-        </button>
-        <ul class="nav-links" id="navLinks" role="list">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
 
-    <main>
-      <!-- Hero -->
-      <section class="hero" id="hero" aria-label="Hero introduction">
-        <div class="hero-bg" aria-hidden="true">
-          <div class="orb orb-1"></div>
-          <div class="orb orb-2"></div>
-          <div class="orb orb-3"></div>
-        </div>
-        <div class="hero-content">
-          <p class="hero-tag" aria-label="Role">
-            Graphic · Brand · UI/UX Designer
-          </p>
-          <h1 class="hero-title">
-            <span class="line">Designing</span>
-            <span class="line italic">experiences</span>
-            <span class="line">that last.</span>
-          </h1>
-          <p class="hero-sub">
-            I shape brands, craft interfaces, and build identities that make
-            people feel something.
-          </p>
-          <div class="hero-actions">
-            <a href="#work" class="btn btn-primary">View My Work</a>
-            <a href="#contact" class="btn btn-ghost">Get In Touch</a>
-          </div>
-        </div>
-        <div class="hero-scroll" aria-hidden="true">
-          <span>Scroll</span>
-          <div class="scroll-line"></div>
-        </div>
-      </section>
+  <!-- Noise overlay -->
+  <div class="noise" aria-hidden="true"></div>
 
-      <!-- About -->
-      <section class="about section" id="about" aria-labelledby="about-heading">
-        <div class="container">
-          <div class="about-grid">
-            <div class="about-visual" aria-hidden="true">
-              <div class="about-img-wrap">
-                <div class="about-img-placeholder">
-                  <span>AV</span>
-                </div>
-                <div class="about-badge">5+ Years</div>
-              </div>
-            </div>
-            <div class="about-text">
-              <p class="section-label">About Me</p>
-              <h2 id="about-heading" class="section-title">
-                A designer who thinks in systems, feels in aesthetics.
-              </h2>
-              <p>
-                I'm Aria Voss, a multidisciplinary designer based in Berlin. My
-                work sits at the intersection of storytelling, visual craft, and
-                user psychology — turning complex ideas into coherent, beautiful
-                experiences.
-              </p>
-              <p>
-                Whether I'm building a brand from scratch or refining the
-                micro-interactions of a mobile app, I approach every project
-                with the same obsession: make it feel inevitable.
-              </p>
-              <div
-                class="about-stats"
-                id="aboutStats"
-                role="list"
-                aria-label="Statistics"
-              ></div>
-            </div>
-          </div>
-        </div>
-      </section>
+  <!-- Header / Nav -->
+  <header class="header" role="banner">
+    <nav class="nav" role="navigation" aria-label="Primary navigation">
+      <a href="#hero" class="nav-logo" aria-label="Aria Voss home">AV</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <!-- Skills -->
-      <section
-        class="skills section"
-        id="skills"
-        aria-labelledby="skills-heading"
-      >
-        <div class="container">
-          <p class="section-label">Capabilities</p>
-          <h2 id="skills-heading" class="section-title">
-            What I bring<br /><em>to the table</em>
-          </h2>
-          <div
-            class="skills-grid"
-            id="skillsGrid"
-            role="list"
-            aria-label="Skills and capabilities"
-          ></div>
-        </div>
-      </section>
-
-      <!-- Work / Projects -->
-      <section class="work section" id="work" aria-labelledby="work-heading">
-        <div class="container">
-          <p class="section-label">Selected Work</p>
-          <h2 id="work-heading" class="section-title">
-            Projects that<br /><em>define me</em>
-          </h2>
-        </div>
-        <div
-          class="projects-list"
-          id="projectsList"
-          role="list"
-          aria-label="Portfolio projects"
-        ></div>
-      </section>
-
-      <!-- Experience -->
-      <section
-        class="experience section"
-        id="experience"
-        aria-labelledby="exp-heading"
-      >
-        <div class="container">
-          <p class="section-label">Journey</p>
-          <h2 id="exp-heading" class="section-title">
-            Where I've<br /><em>been</em>
-          </h2>
-          <div
-            class="timeline"
-            id="timeline"
-            role="list"
-            aria-label="Work experience"
-          ></div>
-        </div>
-      </section>
-
-      <!-- Contact -->
-      <section
-        class="contact section"
-        id="contact"
-        aria-labelledby="contact-heading"
-      >
-        <div class="container">
-          <div class="contact-inner">
-            <p class="section-label">Contact</p>
-            <h2 id="contact-heading" class="contact-title">
-              Let's make<br /><em>something great.</em>
-            </h2>
-            <p class="contact-sub">
-              Open for freelance projects, full-time roles, and creative
-              collabs.
-            </p>
-            <a
-              href="mailto:hello@ariavoss.design"
-              class="contact-email"
-              aria-label="Send email to Aria Voss"
-              >hello@ariavoss.design</a
-            >
-            <nav class="social-links" aria-label="Social media links">
-              <a
-                href="#"
-                rel="noopener noreferrer"
-                aria-label="Dribbble profile"
-                >Dribbble</a
-              >
-              <a href="#" rel="noopener noreferrer" aria-label="Behance profile"
-                >Behance</a
-              >
-              <a
-                href="#"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn profile"
-                >LinkedIn</a
-              >
-              <a
-                href="#"
-                rel="noopener noreferrer"
-                aria-label="Instagram profile"
-                >Instagram</a
-              >
-            </nav>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer" role="contentinfo">
-      <div class="container">
-        <p>© <span id="year"></span> Aria Voss. Crafted with obsession.</p>
-        <p class="footer-right">Berlin, Germany</p>
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero" aria-label="Hero introduction">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
       </div>
-    </footer>
+      <div class="hero-content">
+        <p class="hero-tag" aria-label="Role">
+          Product & Visual Designer
+        </p>
+        <h1 class="hero-title">
+          <span class="line">Designing</span>
+          <span class="line italic">experiences</span>
+          <span class="line">that last.</span>
+        </h1>
+        <p class="hero-sub">
+          I’m passionate about crafting bold visuals and delivering user-focused digital experiences that are both
+          engaging and intuitive.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
-  </body>
+    <!-- About -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual" aria-hidden="true">
+            <div class="about-img-wrap">
+              <div class="about-img-placeholder">
+                <span>AV</span>
+              </div>
+              <div class="about-badge">5+ Years</div>
+            </div>
+          </div>
+          <div class="about-text">
+            <p class="section-label">About Me</p>
+            <h2 id="about-heading" class="section-title">
+              A designer who thinks in systems, feels in aesthetics.
+            </h2>
+            <p>
+              I’m a Product & Visual Designer creating sharp, strategy-led digital experiences. I combine user insight,
+              systems thinking, and strong visual execution to build products that are intuitive, scalable, and
+              purposeful. I design with clarity, precision, and impact.
+            </p>
+            <div class="about-stats" id="aboutStats" role="list" aria-label="Statistics"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <p class="section-label">Capabilities</p>
+        <h2 id="skills-heading" class="section-title">
+          What I bring<br /><em>to the table</em>
+        </h2>
+        <div class="skills-grid" id="skillsGrid" role="list" aria-label="Skills and capabilities"></div>
+      </div>
+    </section>
+
+    <!-- Work / Projects -->
+    <section class="work section" id="work" aria-labelledby="work-heading">
+      <div class="container">
+        <p class="section-label">Selected Work</p>
+        <h2 id="work-heading" class="section-title">
+          Projects that<br /><em>define me</em>
+        </h2>
+      </div>
+      <div class="projects-list" id="projectsList" role="list" aria-label="Portfolio projects"></div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience section" id="experience" aria-labelledby="exp-heading">
+      <div class="container">
+        <p class="section-label">Journey</p>
+        <h2 id="exp-heading" class="section-title">
+          Where I've<br /><em>been</em>
+        </h2>
+        <div class="timeline" id="timeline" role="list" aria-label="Work experience"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-inner">
+          <p class="section-label">Contact</p>
+          <h2 id="contact-heading" class="contact-title">
+            Let's make<br /><em>something great.</em>
+          </h2>
+          <p class="contact-sub">
+            Open for full-time roles, freelance projects, and creative
+            collabs.
+          </p>
+          <a href="mailto:rujanbuyo29@gmail.com" class="contact-email"
+            aria-label="Send email to Aria Voss">rujanbuyo29@gmail.com</a>
+          <nav class="social-links" aria-label="Social media links">
+            <a href="https://www.behance.net/rujanbuyo" rel="noopener noreferrer"
+              aria-label="Behance profile">Behance</a>
+            <a href="https://www.linkedin.com/in/ruzan-buyo-5b1aaa278/" rel="noopener noreferrer"
+              aria-label="LinkedIn profile">LinkedIn</a>
+            <a href="https://www.instagram.com/its.me.ruzan/?__pwa=1" rel="noopener noreferrer"
+              aria-label="Instagram profile">Instagram</a>
+          </nav>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> Ruzan — Designed with Creativity </p>
+      <p class="footer-right">Bhaktapur, Nepal</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>

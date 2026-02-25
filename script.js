@@ -1,100 +1,96 @@
 /* ===========================
    DATA — Easy to edit later
 =========================== */
-
 const stats = [
-  { value: "5+", label: "Years of Experience" },
-  { value: "80+", label: "Projects Delivered" },
-  { value: "30+", label: "Happy Clients" },
+  { value: "1.5+", label: "Years of Experience" },
+  { value: "4+", label: "Projects Delivered" },
+  { value: "5+", label: "Happy Clients" },
 ];
 
 const skills = [
   {
     icon: "✦",
-    title: "Brand Identity",
+    title: "UI/UX Design",
     description:
-      "Building coherent visual systems from the ground up — logos, typography, color theory, brand guidelines, and the stories that make a brand unforgettable.",
+      "Designing intuitive, user-centered digital experiences that balance functionality, clarity, and visual refinement.",
     tags: [
-      "Logo Design",
-      "Brand Strategy",
-      "Visual Identity",
-      "Style Guides",
-      "Typography",
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "Interaction Design",
+      "Design Systems",
+      "Usability Testing"
     ],
   },
   {
     icon: "◈",
-    title: "UI/UX Design",
+    title: "Product Design",
     description:
-      "Designing digital products that are intuitive, accessible, and beautifully crafted — from early research and wireframes to polished, production-ready interfaces.",
+      "Transforming complex ideas into scalable, efficient digital products aligned with user needs and business goals.",
     tags: [
-      "Wireframing",
-      "Prototyping",
-      "Figma",
-      "User Research",
-      "Interaction Design",
+      "User Flows",
+      "Information Architecture",
+      "Accessibility",
+      "Developer Handoff",
     ],
   },
   {
     icon: "⬡",
-    title: "Graphic Design",
+    title: "Branding Design",
     description:
-      "Creating visual communication that commands attention — editorial layouts, poster design, marketing collateral, and print materials with a strong point of view.",
+      "Creating distinctive and cohesive brand systems that communicate purpose, personality, and long-term consistency.",
     tags: [
-      "Editorial Design",
-      "Print",
-      "Illustration",
-      "Poster Art",
-      "Infographics",
+      "Brand Strategy",
+      "Logo Design",
+      "Visual Identity",
+      "Typography",
+      "Brand Guidelines",
     ],
   },
   {
     icon: "◉",
-    title: "Product Design",
+    title: "Graphic Design",
     description:
-      "End-to-end product thinking: from discovery and ideation through iteration and delivery, collaborating closely with engineering and product teams.",
+      "Crafting compelling visual assets across digital and print to strengthen communication and brand presence.",
     tags: [
-      "Design Systems",
-      "Accessibility",
-      "Handoff",
-      "User Testing",
-      "Agile",
+      "Editorial Layout",
+      "Marketing Collateral",
+      "Social Media Design",
+      "Posters",
+      "Print Media Design",
     ],
   },
   {
     icon: "⟡",
-    title: "Motion & Animation",
+    title: "Video & Motion Design",
     description:
-      "Adding life and personality to static designs with purposeful motion — micro-interactions, UI animations, and brand motion identity.",
+      "Enhancing storytelling and user engagement through purposeful animation and dynamic visual transitions.",
     tags: [
-      "After Effects",
-      "Lottie",
-      "Principle",
-      "CSS Animation",
-      "Transitions",
+      "Motion Graphics",
+      "Video Editing",
     ],
   },
-  {
-    icon: "◌",
-    title: "Art Direction",
-    description:
-      "Shaping the visual narrative for campaigns, lookbooks, and digital experiences — from concept and moodboarding to final execution and production.",
-    tags: [
-      "Concept Development",
-      "Moodboarding",
-      "Photo Direction",
-      "Campaign Design",
-    ],
-  },
+  // {
+  //   icon: "◌",
+  //   title: "3D Modeling",
+  //   description:
+  //     "Producing detailed and realistic 3D visuals for products, branding, and motion applications.",
+  //   tags: [
+  //     "Modeling",
+  //     "Lighting",
+  //     "Rendering",
+  //     "Product Visualization",
+  //   ],
+  // },
 ];
 
 const projects = [
   {
     num: "01",
-    category: "Brand Identity · Strategy",
-    title: "Verdant — Sustainable Lifestyle Brand",
+    category: "UI/UX Design",
+    title: "Binary Digits - Portfolio Website Design",
     description:
-      "Complete brand identity for a Scandinavian sustainable lifestyle company. The visual system balances organic warmth with refined minimalism, communicating both approachability and conviction.",
+      "Modern portfolio website for a digital-first tech brand. Designed to showcase innovation and services with clarity and impact.",
     color1: "#0d1f14",
     color2: "#1a3d24",
     accentColor: "#4caf82",
@@ -102,10 +98,10 @@ const projects = [
   },
   {
     num: "02",
-    category: "UI/UX · Product Design",
-    title: "Meridian — Financial Dashboard",
+    category: "UI/UX Design · Product Design",
+    title: "Grocery.co - E-commerce store",
     description:
-      "A data-dense financial analytics platform redesigned for clarity. Complex information architecture restructured into a calm, scannable interface that reduced user errors by 40%.",
+      "Modern eCommerce website for a grocery store, designed for fast browsing and seamless online shopping.",
     color1: "#0d0d2b",
     color2: "#1a1a4d",
     accentColor: "#6c8cf5",
@@ -113,10 +109,10 @@ const projects = [
   },
   {
     num: "03",
-    category: "Editorial · Print",
-    title: "Parallax — Cultural Magazine",
+    category: "UI/UX Design · Product Design",
+    title: "SkillTraid - Online Course Website",
     description:
-      "Art direction and design for a quarterly print publication covering architecture, design, and contemporary culture. Each issue features a bespoke typographic system and visual identity.",
+      "Modern online learning platform built for seamless course discovery and engagement. Designed to deliver structured content, intuitive navigation, and an accessible learning experience.",
     color1: "#2b0d0d",
     color2: "#4d1a1a",
     accentColor: "#f56c6c",
@@ -124,10 +120,9 @@ const projects = [
   },
   {
     num: "04",
-    category: "Mobile · UI/UX",
-    title: "Bloom — Wellness & Mindfulness App",
-    description:
-      "iOS app design for a guided mindfulness and habit-tracking platform. Soft, layered visuals and thoughtful micro-interactions create a daily ritual that feels genuinely restorative.",
+    category: "UI/UX Design",
+    title: "Ruzan - Personal Portfolio Website",
+    description: "Sleek portfolio website for a creative professional, designed to highlight work and personality with a bold, modern aesthetic.",
     color1: "#1a0d2b",
     color2: "#2e1a4d",
     accentColor: "#b580f5",
@@ -137,32 +132,22 @@ const projects = [
 
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Product Designer",
-    company: "Studio Koto, Berlin",
-    description:
-      "Leading design across brand identity, digital product, and motion for global clients. Mentoring a team of three junior designers and establishing internal design system practices.",
+    period: "2024 Nov — Present",
+    role: "Product & Visual Desiger",
+    company: "Infotraid Technology",
+    description: "Leading design for a B2B SaaS platform that streamlines data management and analytics. Responsible for end-to-end product design, from user research and wireframing to high-fidelity UI and developer handoff.",
   },
   {
-    period: "2020 — 2022",
-    role: "UI/UX Designer",
-    company: "Klarna, Stockholm",
-    description:
-      "Owned the design of Klarna's merchant-facing dashboard — from research and concept through delivery. Collaborated daily with engineering, product, and data teams in an agile environment.",
+    period: "2024 July — 2024 Oct",
+    role: "Graphic Designer · UI/UX Designer",
+    company: "Krimal Tech",
+    description: "Designed a modern, user-friendly website for a cybersecurity startup, focusing on clear communication of complex services and building trust with potential clients. Created visual assets for marketing and social media to support brand growth.",
   },
   {
-    period: "2018 — 2020",
-    role: "Graphic & Brand Designer",
-    company: "Pentagram (Associate), London",
-    description:
-      "Contributed to visual identity and brand strategy projects for clients in culture, technology, and retail. Developed a deep understanding of brand systems and multi-platform consistency.",
-  },
-  {
-    period: "2016 — 2018",
-    role: "Junior Designer",
-    company: "Freelance & Agencies",
-    description:
-      "Built a varied foundation across editorial design, digital illustration, and web UI — working with independent brands, agencies, and cultural institutions across Europe.",
+    period: "2024 Mar - 2024 May",
+    role: "Graphic Design Intern",
+    company: "Kontenify Networks",
+    description: "Assisted in creating visual content for a tech startup, including social media graphics, marketing materials, and website assets. Gained experience in brand consistency and digital design best practices.",
   },
 ];
 
