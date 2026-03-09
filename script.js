@@ -19,7 +19,7 @@ const skills = [
       "Prototyping",
       "Interaction Design",
       "Design Systems",
-      "Usability Testing"
+      "Usability Testing",
     ],
   },
   {
@@ -65,10 +65,7 @@ const skills = [
     title: "Video & Motion Design",
     description:
       "Enhancing storytelling and user engagement through purposeful animation and dynamic visual transitions.",
-    tags: [
-      "Motion Graphics",
-      "Video Editing",
-    ],
+    tags: ["Motion Graphics", "Video Editing"],
   },
   // {
   //   icon: "◌",
@@ -94,7 +91,7 @@ const projects = [
     color1: "#0d1f14",
     color2: "#1a3d24",
     accentColor: "#4caf82",
-    link: "#",
+    link: "https://www.figma.com/proto/lY3fcanxvUZzW2wyVnRxWS/Binary-Digits--Copy-?page-id=397%3A1824&node-id=472-1136&p=f&viewport=337%2C477%2C0.02&t=ufx9G5QAv5GPlVYS-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=472%3A1136",
   },
   {
     num: "02",
@@ -105,7 +102,7 @@ const projects = [
     color1: "#0d0d2b",
     color2: "#1a1a4d",
     accentColor: "#6c8cf5",
-    link: "#",
+    link: "https://www.figma.com/proto/deViQ6rfZS5zJlVC2LmvIN/E-commerse--Copy-?page-id=114%3A226&node-id=114-227&p=f&viewport=285%2C457%2C0.08&t=CSjMx5i92jg2sFat-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=114%3A227",
   },
   {
     num: "03",
@@ -122,11 +119,12 @@ const projects = [
     num: "04",
     category: "UI/UX Design",
     title: "Ruzan - Personal Portfolio Website",
-    description: "Sleek portfolio website for a creative professional, designed to highlight work and personality with a bold, modern aesthetic.",
+    description:
+      "Sleek portfolio website for a creative professional, designed to highlight work and personality with a bold, modern aesthetic.",
     color1: "#1a0d2b",
     color2: "#2e1a4d",
     accentColor: "#b580f5",
-    link: "#",
+    link: "https://www.figma.com/proto/fhMReizoX48vdqxinBje3t/Portfolio2?page-id=353%3A405&node-id=374-36&viewport=207%2C134%2C0.05&t=Q0Jp4eBolOdtK3vj-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=374%3A36",
   },
 ];
 
@@ -135,19 +133,22 @@ const experiences = [
     period: "2024 Nov — Present",
     role: "Product & Visual Desiger",
     company: "Infotraid Technology",
-    description: "Leading design for a B2B SaaS platform that streamlines data management and analytics. Responsible for end-to-end product design, from user research and wireframing to high-fidelity UI and developer handoff.",
+    description:
+      "Leading design for a B2B SaaS platform that streamlines data management and analytics. Responsible for end-to-end product design, from user research and wireframing to high-fidelity UI and developer handoff.",
   },
   {
     period: "2024 July — 2024 Oct",
     role: "Graphic Designer · UI/UX Designer",
     company: "Krimal Tech",
-    description: "Designed a modern, user-friendly website for a cybersecurity startup, focusing on clear communication of complex services and building trust with potential clients. Created visual assets for marketing and social media to support brand growth.",
+    description:
+      "Designed a modern, user-friendly website for a cybersecurity startup, focusing on clear communication of complex services and building trust with potential clients. Created visual assets for marketing and social media to support brand growth.",
   },
   {
     period: "2024 Mar - 2024 May",
     role: "Graphic Design Intern",
     company: "Kontenify Networks",
-    description: "Assisted in creating visual content for a tech startup, including social media graphics, marketing materials, and website assets. Gained experience in brand consistency and digital design best practices.",
+    description:
+      "Assisted in creating visual content for a tech startup, including social media graphics, marketing materials, and website assets. Gained experience in brand consistency and digital design best practices.",
   },
 ];
 
