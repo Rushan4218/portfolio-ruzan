@@ -92,6 +92,7 @@ const projects = [
     color2: "#1a3d24",
     accentColor: "#4caf82",
     link: "https://www.figma.com/proto/lY3fcanxvUZzW2wyVnRxWS/Binary-Digits--Copy-?page-id=397%3A1824&node-id=472-1136&p=f&viewport=337%2C477%2C0.02&t=ufx9G5QAv5GPlVYS-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=472%3A1136",
+    liveLink: "https://bdpl.com.np"
   },
   {
     num: "02",
@@ -229,9 +230,16 @@ function renderProjects() {
         <p class="project-category">${p.category}</p>
         <h3 class="project-title">${p.title}</h3>
         <p class="project-desc">${p.description}</p>
-        <a href="${p.link}" class="project-link" aria-label="View ${p.title} project">
-          View Project <span class="arrow" aria-hidden="true">→</span>
-        </a>
+        <div class="project-demo-links"> 
+          <a target="_blank" href="${p.link}" class="project-link" aria-label="View ${p.title} project">
+            View Project <span class="arrow" aria-hidden="true">→</span>
+          </a>
+          ${p.liveLink ?
+          `<a target="_blank" href="${p.liveLink}" class="project-link" aria-label="View ${p.title} project">
+            View Live Site<span class="arrow" aria-hidden="true">→</span>
+          </a>` : ""
+        }
+        </div>
       </div>
     </article>
   `,

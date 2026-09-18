@@ -906,6 +906,7 @@ button {
   align-self: flex-start;
 }
 
+
 .project-link:hover {
   border-color: var(--purple-light);
   gap: 0.75rem;
@@ -917,6 +918,12 @@ button {
 
 .project-link:hover .arrow {
   transform: translateX(4px);
+}
+
+.project-demo-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 /* ===========================
